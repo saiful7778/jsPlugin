@@ -1,5 +1,5 @@
-function sendData(){
-  console.log("Drop down CDN");
+function sendData(data){
+  console.log(data + "this is from CDN");
 }
 
-export sendData();
+export default sendData();
